@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
     private static final String TAG = "POKEDEX";
 
     private Retrofit retrofit;
-    private TextView mText;d .
+    private TextView mText;
 
 
 
