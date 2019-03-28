@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/margin_base"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:id="@+id/tv_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_id"/>
+
+    <TextView
+        android:id="@+id/tv_idpokemon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/txt_big"
+        android:layout_marginBottom="@dimen/margin_extra"
+        android:text="@string/t_name"/>
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/t_name"/>
+
+    <TextView
+        android:id="@+id/tv_namepokemon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/txt_big"
+        android:layout_marginBottom="@dimen/margin_extra"
+        android:text="@string/t_name"/>
+
+    <TextView
+        android:id="@+id/tv_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/txt_image"/>
+
+    <ImageView
+        android:id="@+id/iv_img"
+        android:layout_gravity="center"
+        android:layout_width="@dimen/iv_size"
+        android:layout_height="@dimen/iv_size"
+        android:layout_marginBottom="@dimen/margin_extra"/>
+
+
+</LinearLayout>
